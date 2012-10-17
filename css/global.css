@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td {margin: 0;padding: 0;border: 0;outline: 0;font-size: 100%;vertical-align: baseline;background: transparent;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {content: '';content: none;} /* remember to define focus styles! */ :focus {outline: 0;} 
+/* remember to highlight inserts somehow! */
+ins {text-decoration: none;}
+del {text-decoration: line-through;}
+/* tables still need 'cellspacing="0"' in the markup */ 
+table {border-collapse: collapse;border-spacing: 0;}
+
+/*body styles and settings */
+body {
+	text-align: center;
+	background-image:url(../images/light_toast.png)
+}
+
+nav {
+	position:relative;
+	width: 100%;
+	height: 80px;
+	margin:auto;
+	background-image:url(../images/concrete_wall.png)
+}
+	
+ul > li {display: inline-block;}
+nav ul li a {margin-left: 60px;}
+nav ul {text-align: right;}
+P {line-height: 1.5;}
+a {text-decoration: none; color:inherit;}
+
+/*nav styles -----------------------------------------*/
+#wrap{
+	width:960px;
+	margin:0 auto 0;
+	height:auto;
+}
+
+nav ul {
+	text-align: right;
+}
+
+nav ul li a {
+	margin-left: 60px;
+}
+
+
+nav ul li {
+	font: 13px Verdana, 'Lucida Grande';
+	cursor: pointer;
+	-webkit-transition: padding .05s linear;
+	-moz-transition: padding .05s linear;
+	-ms-transition: padding .05s linear;
+	-o-transition: padding .05s linear;
+	transition: padding .05s linear;
+}
+
+nav ul > li {
+	display: inline-block;
+}
+
+nav ul li a {
+	line-height: 80px;
+	height: 80px;
+	color: #777;
+	-webkit-transition: all .1s ease-out;
+	-moz-transition: all .1s ease-out;
+	-ms-transition: all .1s ease-out;
+	-o-transition: all .1s ease-out;
+	transition: all .1s ease-out;
+}
+nav ul li a:hover {
+	color: #777;
+}
+
+nav ul li:hover a { color: #fff; }
+nav ul li:hover .underline { border-bottom-color: #777; }
+
+/*end nav style -------------------------------------------*/
+
+#wrapper {
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:60px;
+	width: 960px;
+	height: 600px;
+	top:0px;
+}
+
+#logo {
+	background-image:url(../images/logo.png);
+	background-repeat:no-repeat;
+	position: absolute;
+	width: 164px;
+	height: 29px;
+	top: 24px;
+}

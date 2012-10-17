@@ -1,0 +1,156 @@
+@import "fonts.css"; 
+
+#raffle {
+	background-image:url(../images/raffle_main.png);
+	background-repeat:no-repeat;
+	position: absolute;
+	width: 990px;
+	height: 500px;
+	top: 180px;
+	z-index: 2;
+}
+
+#box {
+	background-image:url(../images/white.png); 
+	position: absolute;
+	top: 80px;
+	z-index: 10;
+	width: 100%;
+	height: 100%;
+}
+
+#content {
+	text-align: left;
+}
+
+h1 {
+	padding-top: 80px;
+	font-size: 50px;
+	font-family: 'MP_bold';
+	color: #333333;	
+}
+
+p {
+	width: 540px;
+	font-size: 30px;
+	font-family: 'MP_regular';
+	color: #4D4D4D;	
+	line-height: 1.5;
+}
+
+#bold {
+	font-family: 'MP_semibold';
+	color: #38B6E9;
+}
+
+/**** submit form ****/
+
+.container {
+    	width: 500px;
+    	max-width: 500px;
+}
+
+#signup {
+    display: table;
+    position: static;
+}
+
+
+#signup .inputs {
+    margin-top: 5px;
+}
+
+#signup .inputs label {
+    color: #8f8f8f;
+    font-size: 12px;
+    font-family: "MP_semibold";
+    letter-spacing: 1px;
+    margin-bottom: 7px;
+    display: block;
+}
+
+input::-webkit-input-placeholder {
+    color:    #b5b5b5;
+}
+
+input:-moz-placeholder {
+    color:    #b5b5b5;
+}
+
+p.action {font-family:"MP_semibold"; margin-top: 25px;}
+
+#signup .inputs input[type=email], input[type=password] {
+    background: #fff;
+    font-size: 23px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    padding: 13px 10px;
+    width: 500px;
+    margin-bottom: 20px;
+	box-shadow: 0px 0px 0px 3px #38B6E9;
+    clear: both;
+}
+
+#signup .inputs input[type=email]:focus, input[type=password]:focus {
+    background: #fff;
+    box-shadow: 0px 0px 0px 3px #38B6E9, inset 0px 2px 3px rgba( 0,0,0,0.2 ), 0px 5px 5px rgba( 0,0,0,0.15 );
+    outline: none;   
+}
+
+/**** end submit form ****/
+
+/**** button ***/
+
+.button {
+	position:relative;
+	cursor:pointer;
+	font-family: "MP_semibold";
+	font-size: 36px;
+	color:#333;
+	text-decoration:none;
+	border-radius:3px;
+	background-color:#EEE;
+	background-image:-webkit-linear-gradient(rgba(255,255,255,0.2), rgba(0,0,0,0.2));
+	background-image:   -moz-linear-gradient(rgba(255,255,255,0.2), rgba(0,0,0,0.2));
+	background-image:     -o-linear-gradient(rgba(255,255,255,0.2), rgba(0,0,0,0.2));
+	background-image:        linear-gradient(rgba(255,255,255,0.2), rgba(0,0,0,0.2));
+	-webkit-box-shadow:inset 1px 1px rgba(255,255,255,0.8), 0 1px 2px rgba(0,0,0,0.3), inset 0 -2px 2px -2px rgba(0,0,0,0.5);
+	-moz-box-shadow:inset 1px 1px rgba(255,255,255,0.8), 0 1px 2px rgba(0,0,0,0.3), inset 0 -2px 2px -2px rgba(0,0,0,0.5);
+	box-shadow:inset 1px 1px rgba(255,255,255,0.8), 0 1px 2px rgba(0,0,0,0.3), inset 0 -2px 2px -2px rgba(0,0,0,0.5);
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	user-select:none;
+}
+
+.button::-moz-focus-inner {margin:0; padding:0; border:0;}
+
+a.button {outline:0;}
+
+.button:hover, .button:focus, .button:active {
+	text-decoration:none;
+	background-color:#F9F9F9;
+	background-image:-webkit-linear-gradient(rgba(255,255,255,0.4), rgba(0,0,0,0.3));
+	background-image:   -moz-linear-gradient(rgba(255,255,255,0.4), rgba(0,0,0,0.3));
+	background-image:     -o-linear-gradient(rgba(255,255,255,0.4), rgba(0,0,0,0.3));
+	background-image:        linear-gradient(rgba(255,255,255,0.4), rgba(0,0,0,0.3));
+}
+		
+.button:active {
+	top:1px;
+	background-image:-webkit-linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.2));
+	background-image:   -moz-linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.2));
+	background-image:     -o-linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.2));
+	background-image:        linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.2));
+}
+
+.button.green {background-color:#7AC943; left: 540px; top: -64px;}
+
+.button.large {padding:10px 20px 11px; font-size:36px; color: #fff;}
+
+/**** end button ****/
+
+
+
+

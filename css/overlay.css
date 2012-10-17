@@ -1,0 +1,191 @@
+@import "fonts.css"; 
+
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td {margin: 0;padding: 0;border: 0;outline: 0;font-size: 100%;vertical-align: baseline;background: transparent;}body {line-height: 1;}ol, ul {list-style: none;}blockquote, q {quotes: none;}blockquote:before, blockquote:after,q:before, q:after {content: '';content: none;} /* remember to define focus styles! */ :focus {outline: 0;} /* remember to highlight inserts somehow! */ins {text-decoration: none;}del {text-decoration: line-through;} /* tables still need 'cellspacing="0"' in the markup */ table {border-collapse: collapse;border-spacing: 0;}
+
+body {
+	text-align: center;
+	background: #fff;
+}
+
+#close {
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	left: 1000px;
+	top: 30px;
+	background-image: url('../images/close.png');
+	background-repeat: no-repeat;
+}
+
+#wrap {
+	text-align: left;
+	width: 960px;
+	height: auto;
+} 
+
+#timer {
+    position:absolute;
+    top: 100px;
+    left: 590px;
+	width: 500px;;
+	height: 500px;
+	background-image: url('../images/timer.png');
+	background-repeat:no-repeat;
+}
+
+#form {
+    position:absolute;
+    top: 100px;
+    left: 70px;
+	width: 500px;;
+	height: 500px;
+	background-image: url('../images/form.png');
+	background-repeat:no-repeat;
+}
+
+#join{
+    position:absolute;
+    top: 340px;
+    left: 720px;
+	width: 500px;;
+	height: 500px;
+	background-image: url('../images/join.png');
+	background-repeat:no-repeat;
+}
+
+#bar {
+    position:absolute;
+    top: 360px;
+    left: 140px;
+	width: 850px;
+	height: 300px;
+	background-image: url('../images/bar.png');
+	background-repeat:no-repeat;
+}
+
+#arrow {
+    position:absolute;
+    top: 30px;
+    left: 905px;
+	width: 500px;
+	height: 500px;
+	background-image: url('../images/arrow.png');
+	background-repeat:no-repeat;
+}
+
+#ologo {
+    position:absolute;
+    top: 70px;
+    left: 100px;
+	width: 400px;
+	height: 400px;
+	background-image: url('../images/ologo.png');
+	background-repeat:no-repeat;
+}
+
+#infowrap {width: 426px; height: auto;}
+
+h1 {
+	font-size: 46px;
+	font-family: 'MP_bold';
+	color: #333333;	
+}
+
+p {
+	width: 426px;
+	font-size: 24px;
+	font-family: 'MP_regular';
+	color: #4D4D4D;	
+	line-height: 1.5;
+}
+
+#about {
+	margin-left: 520px;
+	margin-top: 177px;
+}
+
+#title2 {
+	margin-top: 125px;
+	margin-left: 570px;
+}
+
+#title3 {
+	margin-top: 200px;
+	margin-left: 370px;
+}
+
+#title4 {
+	margin-top: 90px;
+	margin-left: 320px;
+}
+
+#unlockp {
+	margin-left: 320px;
+	margin-top: 1px;
+}
+
+#timerp {
+	margin-left: 377px;
+	margin-top: 1px;
+}
+
+#aboutp {
+	margin-left: 527px;
+	margin-top: 1px;
+}
+
+#getp {
+	margin-left: 570px;
+	margin-top: 1px;
+}
+
+.button {
+	position:relative;
+	cursor:pointer;
+	font-family: "MP_semibold";
+	font-size: 36px;
+	color:#333;
+	text-decoration:none;
+	border-radius:3px;
+	background-color:#EEE;
+	background-image:-webkit-linear-gradient(rgba(255,255,255,0.2), rgba(0,0,0,0.2));
+	background-image:   -moz-linear-gradient(rgba(255,255,255,0.2), rgba(0,0,0,0.2));
+	background-image:     -o-linear-gradient(rgba(255,255,255,0.2), rgba(0,0,0,0.2));
+	background-image:        linear-gradient(rgba(255,255,255,0.2), rgba(0,0,0,0.2));
+	-webkit-box-shadow:inset 1px 1px rgba(255,255,255,0.8), 0 1px 2px rgba(0,0,0,0.3), inset 0 -2px 2px -2px rgba(0,0,0,0.5);
+	-moz-box-shadow:inset 1px 1px rgba(255,255,255,0.8), 0 1px 2px rgba(0,0,0,0.3), inset 0 -2px 2px -2px rgba(0,0,0,0.5);
+	box-shadow:inset 1px 1px rgba(255,255,255,0.8), 0 1px 2px rgba(0,0,0,0.3), inset 0 -2px 2px -2px rgba(0,0,0,0.5);
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	user-select:none;
+}
+
+.button::-moz-focus-inner {margin:0; padding:0; border:0;}
+
+a.button {outline:0;}
+
+.button:hover, .button:focus, .button:active {
+	text-decoration:none;
+	background-color:#F9F9F9;
+	background-image:-webkit-linear-gradient(rgba(255,255,255,0.4), rgba(0,0,0,0.3));
+	background-image:   -moz-linear-gradient(rgba(255,255,255,0.4), rgba(0,0,0,0.3));
+	background-image:     -o-linear-gradient(rgba(255,255,255,0.4), rgba(0,0,0,0.3));
+	background-image:        linear-gradient(rgba(255,255,255,0.4), rgba(0,0,0,0.3));
+}
+		
+.button:active {
+	top:1px;
+	background-image:-webkit-linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.2));
+	background-image:   -moz-linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.2));
+	background-image:     -o-linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.2));
+	background-image:        linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.2));
+}
+
+.button.large {padding:10px 20px 11px; font-size:36px; color: #fff;}
+
+.button.green {background-color:#7AC943; left: 320px; top: 30px;}
+.button.grey {background-color: #4D4D4D; left:0px; top: -6px;}
+.button.grey1 {background-color: #4D4D4D; left:0px; top: 20px;}
+.button.green2 {background-color:#7AC943; left: 700px; top: 140px;}
+
