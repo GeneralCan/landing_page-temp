@@ -23,10 +23,8 @@ p.folks {margin-top: 40px;}
 p.name {
 	font-family: "MP_bold";
 	font-size: 30px;
-	color: #333;
+	color: #38B6E9;
 }
-
-.name:hover {color:#38B6E9; cursor: pointer;}
 
 p.title {
 	font-family: "MP_semibold";
@@ -71,7 +69,5 @@ p.small {
 .bio {
 	padding-top: 30px;
 }
-
-.bio:hover {cursor:pointer;}
 
 #section1 {margin-bottom: 100px;}
