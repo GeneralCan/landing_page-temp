@@ -157,9 +157,9 @@ a.button {outline:0;}
 	background-image:        linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.2));
 }
 
-.button.green {background-color:#7AC943; left: 540px; top: -64px;}
+.button.green {background-color:#7AC943; left: 540px; top: -78px;}
 
-.button.large {padding:10px 20px 11px; font-size:36px; color: #fff;}
+.button.large {padding:10px 20px 11px; font-size:28px; color: #fff;}
 
 /**** end button ****/
 
