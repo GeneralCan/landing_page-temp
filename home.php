@@ -1,16 +1,26 @@
+<?php
+
+session_start();
+if(isset($_SESSION['ON-OFF'])){
+	$ON_OFF = $_SESSION['ON-OFF'];
+} else {
+	$ON_OFF = 0;
+}
+?>
 <!doctype html>
-
 <html>
-
 <head>
 	
 <title>Raffleize</title>
 	
 <link rel="stylesheet" type="text/css" href="css/global.css" />	
 <link rel="stylesheet" type="text/css" href="css/landing.css" />
-
+<script type="text/javascript" src="source/jquery-1.3.1.min.js"></script>
 <script type="text/javascript" src="source/functions.js"></script>
 
+<script type="text/javascript">
+	var ON_OFF = "<?php echo $ON_OFF; ?>";
+</script>
 </head>
 <body>
 
@@ -32,14 +42,15 @@
 		<div id="content">
 			<h1>Hey there!</h1>
 			<p>It seems you're a bit early, but not to worry we're soon going to be <span id="bold">hosting Raffles</span> with many, <span id="bold">many prizes</span>.</p>
-			<p class="action"> <span id="bold">SIGNUP</span> below for <span id="bold">early access</span>.</p>
+			<p class="action" id="action"> <span id="bold">SIGNUP</span> below for <span id="bold">early access</span>.</p>
+            <p class="action" id="action2"> <span id="bold">All done!</span></p>
 			<!-- start form -->
-			<div class="container"><!-- basically the wrapper for the form -->
-			    <form id="signup" onSubmit="submitForm(this);">
+			<div class="container" id="container"><!-- basically the wrapper for the form -->
+			    <form id="signup" method="POST" action="source/submitForm.php">
 			        <div class="inputs">
-					<input type="email" id="email" placeholder="e-mail" autofocus /><!-- email form field-->
+					<input type="email" id="email" name="email" placeholder="e-mail" autofocus /><!-- email form field-->
 			        </div><!--end inputs -->
-                    <input type="button" class="button large green" value="submit"/><!-- submit button for email address form -->
+                    <input type="submit" class="button large green" value="submit"/><!-- submit button for email address form -->
 			    </form>
 			    
 			</div><!-- end container, end form-->

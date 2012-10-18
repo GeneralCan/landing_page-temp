@@ -90,6 +90,7 @@ input:-moz-placeholder {
 }
 
 p.action {font-family:"MP_semibold"; margin-top: 25px;}
+#action2 {font-family:"MP_semibold"; margin-top: 25px; display:none;}
 
 #signup .inputs input[type=email], input[type=password] {
     background: #fff;
