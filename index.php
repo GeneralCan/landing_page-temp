@@ -26,7 +26,7 @@ if(isset($_SESSION['ON-OFF'])){
 
 <nav><!-- Navigation -->
 	<div id="wrap">
-		<a href="home.html"><div id="logo"></div></a><!-- logo in nav, also "home button" -->
+		<a href="index.php"><div id="logo"></div></a><!-- logo in nav, also "home button" -->
 		<ul>
 			<li><a href="about.html">About</a></li>
 		</ul>
